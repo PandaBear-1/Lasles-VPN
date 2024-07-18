@@ -227,6 +227,12 @@ section.third_section{
     margin-bottom: 20px;
 }
 
+
+@keyframes typewriter {
+    0% {width: 0;}
+    100% {width: 100%;}
+  }
+
 .fourth_section p{
     font-size: 18px;
     font-weight: 400;
@@ -487,6 +493,21 @@ section.seventh_section{
     font-size: 35px;
     margin-bottom: 15px;
 }
+
+@keyframes typewriter {
+    0% {width: 0;}
+    100% {width: 100%;}
+  }
+
+  .seventh_section_text p{
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em; 
+    animation: typewriter 2s 12s steps(42, end), blink-caret .75s step-end infinite;
+  }
+
 .seventh_section button{
     margin-top: 40px;
     background-color:#F53855;
@@ -531,4 +552,14 @@ list-style-type: none;
 font-size: 18px;
 margin-bottom: 20px;
 margin-right: 130px;
+}
+
+
+#home_button img{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
 }
