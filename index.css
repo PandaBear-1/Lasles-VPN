@@ -364,7 +364,87 @@ section.fifth_section{
     text-align: center;
 }
 
-.three_sixth_section_divs{
+.container{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card_wrapper{
+    max-width: 1100px;
+    margin-left: 53px;
+}
+
+.card_list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.card_item .card_link{
+    display: block;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    user-select: none;
+    height: 200px;
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.card_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.card_1 .card_name h2{
+    font-size: 14px;
+}
+
+.card_1 .card_name p{
+    font-size: 12px;
+}
+
+.score{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.card_2 p{
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.card_wrapper .bullet-pagination-bullet{
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #5372f0;
+}
+
+.card_wrapper .bullet-pagination-bullet-active{
+    opacity: 1;
+}
+
+.card_wrapper .swiper-slide-button{
+    color: #5372f0;
+    margin-top: -35px;
+}
+
+
+
+
+/*.three_sixth_section_divs{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -403,7 +483,7 @@ section.fifth_section{
     font-size: 12px;
     font-weight: 300;
     text-align: left;
-}
+} */
 
 .navigation{
     margin-top: 30px;
@@ -534,7 +614,7 @@ section.last_section{
 }
 
 .first_last_section p{
-    font-size: 17px;
+    font-size: 14px;
     margin-top: 10px;
 }
 
@@ -549,7 +629,7 @@ section.last_section{
 
 .product ul li{
 list-style-type: none;
-font-size: 18px;
+font-size: 12px;
 margin-bottom: 20px;
 margin-right: 130px;
 }
